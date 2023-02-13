@@ -11,8 +11,7 @@ class DateTimeDecoder(json.JSONDecoder):
     """A class to decode datetime objects from json"""
 
     def __init__(self, *args, **kargs):
-        json.JSONDecoder.__init__(self, object_hook=self.dict_to_object,
-                                  *args, **kargs)
+        super().__init__(object_hook=self.dict_to_object, *args, **kargs)
 
     def dict_to_object(self, d: dict) -> Union[dict, datetime]:
         if '__type__' not in d:
@@ -47,7 +46,7 @@ class DateTimeEncoder(json.JSONEncoder):
                 'microsecond': obj.microsecond,
             }
         else:
-            return json.JSONEncoder.default(self, obj)
+            return super().default(obj)
 
 
 def loads(*args, **kwargs) -> Any:
