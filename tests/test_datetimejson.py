@@ -1,6 +1,6 @@
 from datetimejson import loads, load, dumps, dump
 from datetime import datetime
-from faker import Faker
+from faker import Faker  # type: ignore
 from pathlib import Path
 import filecmp
 

@@ -4,7 +4,7 @@ Handle datetime objects in json format
 
 from datetime import datetime
 import json
-from typing import Any
+from typing import Any, Union
 
 
 class DateTimeDecoder(json.JSONDecoder):
@@ -14,7 +14,7 @@ class DateTimeDecoder(json.JSONDecoder):
         json.JSONDecoder.__init__(self, object_hook=self.dict_to_object,
                                   *args, **kargs)
 
-    def dict_to_object(self, d: dict) -> dict | datetime:
+    def dict_to_object(self, d: dict) -> Union[dict, datetime]:
         if '__type__' not in d:
             return d
 
