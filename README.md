@@ -1,6 +1,6 @@
 # Datetime JSON
 
-![Github action badge](https://github.com/boileaum/datetimejson/actions/workflows/python.yml/badge.svg)
+![Github action badge](https://github.com/boileaum/datetimejson/actions/workflows/test.yml/badge.svg)
 
 Serialize and deserialize datetime objects to and from JSON.
 
