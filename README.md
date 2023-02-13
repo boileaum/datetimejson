@@ -1,6 +1,6 @@
 # Datetime JSON
 
-![Github action badge](https://github.com/boileaum/datetimejson/actions/workflows/test.yml/badge.svg)
+[![Github action badge](https://github.com/boileaum/datetimejson/actions/workflows/test.yml/badge.svg)](https://github.com/boileaum/datetimejson/actions)
 
 Serialize and deserialize datetime objects to and from JSON.
 
@@ -30,4 +30,4 @@ Usage:
 >>> 
 ```
 
-Original code by @ApptuitAI: <https://gist.github.com/abhinav-upadhyay/5300137>
+Original code by [@ApptuitAI](https://github.com/ApptuitAI): <https://gist.github.com/abhinav-upadhyay/5300137>
