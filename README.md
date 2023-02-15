@@ -22,6 +22,8 @@ pip install datetimejson
 
 ## Usage
 
+Just replace `json` import by `datetimejson` in your code:
+
 ```python
 >>> from datetimejson import dumps, loads
 >>> from datetime import datetime
