@@ -6,7 +6,7 @@ Serialize and deserialize datetime objects to and from JSON.
 
 This package provides:
 
-* 4 functions that wrap the corresponding functions of the `json` module:
+* 4 functions that wrap the corresponding functions of the [`json`](https://docs.python.org/fr/3/library/json.html) module:
     - `load/loads` - Deserialize a JSON string containing datetime objects
     - `dump/dumps` - Serialize python object containting datetime objects to JSON
 
@@ -14,7 +14,13 @@ This package provides:
     - `DateTimeEncoder` - Serialize a datetime object to JSON
     - `DateTimeDecoder` - Deserialize a JSON string to a datetime object
 
-Usage:
+## Installation
+
+```bash
+pip install datetimejson
+```
+
+## Usage
 
 ```python
 >>> from datetimejson import dumps, loads
