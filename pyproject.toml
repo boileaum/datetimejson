@@ -42,3 +42,6 @@ where = [
     "src",
 ]
 namespaces = false
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
