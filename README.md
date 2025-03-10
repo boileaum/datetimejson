@@ -1,6 +1,8 @@
 # Datetime JSON
 
 [![Github action badge](https://github.com/boileaum/datetimejson/actions/workflows/test.yml/badge.svg)](https://github.com/boileaum/datetimejson/actions)
+[![PyPI version](https://badge.fury.io/py/datetimejson.svg)](https://badge.fury.io/py/datetimejson)
+[![PyPI - License](https://img.shields.io/pypi/l/datetimejson)](https://pypi.org/project/datetimejson/)
 
 Serialize and deserialize datetime objects to and from JSON.
 
