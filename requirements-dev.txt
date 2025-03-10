@@ -1,2 +1,2 @@
-faker
+faker==37
 pytest

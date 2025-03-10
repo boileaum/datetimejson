@@ -28,7 +28,7 @@ unser = Unserializable()
 def test_dumps():
     # Test a single datetime object
     s = dumps(dt_list[0])
-    assert s == """{"__type__": "datetime", "year": 2007, "month": 8, "day": 27, "hour": 2, "minute": 15, "second": 10, "microsecond": 0}"""
+    assert s == """{"__type__": "datetime", "year": 2004, "month": 9, "day": 28, "hour": 19, "minute": 37, "second": 50, "microsecond": 45621}"""
     # Test a classic object
     s = dumps({'a': 1, 'b': 2})
     assert s == """{"a": 1, "b": 2}"""
