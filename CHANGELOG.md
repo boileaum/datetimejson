@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added Python 3.12 to the testing matrix in GitHub Actions workflow.
 
+### Changed
+
+- Updated the publish github action.
+
 ### Fixed
 
 - Fix test failure due to changes in faker library (faker version is now fixed)
