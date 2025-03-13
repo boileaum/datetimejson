@@ -14,3 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fix test failure due to changes in faker library (faker version is now fixed)
+- Fix github actions not installing the target python version (#3)
+
+### Removed
+
+- Removed Python 3.6, 3.7 and 3.8 from the testing matrix in GitHub Actions workflow (not compatible with Ubuntu 24.04).
